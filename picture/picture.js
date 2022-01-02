@@ -15,7 +15,7 @@ function onepiece(){
     r=Math.round(Math.random()*255); 
     g=Math.round(Math.random()*255); 
     b=Math.round(Math.random()*255); 
-    document.getElementById("pic").src="pic/"+pc+".jpg";
+    document.getElementById("pic").src="picture/pic/"+pc+".jpg";
     pc++;
     document.getElementById("pic").style.border=gv+"px solid yellow";
     document.getElementById("pic").style.borderBottomColor="rgb("+r+","+g+","+b+")";
