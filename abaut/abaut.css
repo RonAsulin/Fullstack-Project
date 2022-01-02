@@ -1,0 +1,80 @@
+body{
+    background-image:url("pic/2.jpg");
+    background-size:100%;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    font-style: initial;
+    }
+h1{
+color: rgb(121, 199, 245);
+text-align: center;
+font-size: 40px;
+text-shadow: 5px ;
+font-family:cursive;
+border-style: ridge;
+
+
+}
+button{
+    display:block;
+    border-radius:30%;
+    border-style: groove;
+    padding: 10px 20px;
+    color:rgb(255, 0, 0);
+    border-color: rgb(126, 244, 96);
+    text-decoration: underline;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    width: 100px;
+    height: 100px;
+    font-style: initial;
+}
+button:hover{
+    padding: 20px 20px;
+    background-color: skyblue;
+    box-shadow: slateblue;
+}
+button:active {
+  background-color: #27abaf;
+  box-shadow: 0 5px rgb(255, 142, 142);
+  transform: translateY(4px);
+}
+div{
+    border-style:double;
+    font-style: italic; 
+    
+}
+p{
+   border-style: double;
+   text-align: center;
+   color: sienna;
+   font-size: 50px;
+   font-style: initial;
+}
+div.mymenu {
+    background-color: rgb(245, 167, 167);
+    position: fixed;
+    top: 0;
+    width: 99%;
+    border: 1px solid #58ecff;
+    box-shadow: 0px 0px 10px rgb(86, 86, 231);
+    overflow: hidden;
+    font-size: 125%;
+  }
+  .mymenu a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .mymenu a:hover {
+    background-color: rgb(139, 0, 120);
+    color: white;
+    opacity: 0.8;
+    transition: 1s;
+  }

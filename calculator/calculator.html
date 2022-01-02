@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="function.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title></title>
+    <body>
+        <div class="mymenu">
+            <a href="file:///C:/Users/%D7%94%D7%9E%D7%97%D7%A9%D7%91%20%D7%A9%D7%9C%D7%99/Desktop/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/menu.html">Home</a>
+            <a href="file:///C:/Users/%D7%94%D7%9E%D7%97%D7%A9%D7%91%20%D7%A9%D7%9C%D7%99/Desktop/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/base/base.html" >Base Convert</a>
+            <a href="file:///C:/Users/%D7%94%D7%9E%D7%97%D7%A9%D7%91%20%D7%A9%D7%9C%D7%99/Desktop/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/calculator/calculator.html"style="background-color: rgb(0, 139, 127); color: white;">Calculator</a>
+            <a href="file:///C:/Users/%D7%94%D7%9E%D7%97%D7%A9%D7%91%20%D7%A9%D7%9C%D7%99/Desktop/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/picture/picture.html">Pictures</a>
+            <a href="file:///C:/Users/%D7%94%D7%9E%D7%97%D7%A9%D7%91%20%D7%A9%D7%9C%D7%99/Desktop/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/test/test.html">Test</a>
+            <a href="file:///C:/Users/%D7%94%D7%9E%D7%97%D7%A9%D7%91%20%D7%A9%D7%9C%D7%99/Desktop/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/abaut/abaut.html">About</a>
+        </div>
+    <br><br><br><br>
+    <table class = "calculator" >
+        <tr>
+        <td colspan = "3"> <input class = "display" type = "text" id = "result" disabled /> </td>
+        <!-- clearScreen() function clear all the values -->
+        <td> <input class = "button" type = "button" value = "C" onclick = "clearScreen()" style = "background-color: #fb0066;" /> </td>
+        </tr>
+        <tr>
+        <!-- display() function display the value of clicked button -->
+        <td> <input  type = "button" value = "1" onclick = "display('1')" /> </td>
+        <td> <input  type = "button" value = "2" onclick = "display('2')" /> </td>
+        <td> <input  type = "button" value = "3" onclick = "display('3')" /> </td>
+        <td> <input  type = "button" value = "/" onclick = "display('/')" /> </td>
+        </tr>
+        <tr>
+        <td> <input  type = "button" value = "4" onclick = "display('4')" /> </td>
+        <td> <input  type = "button" value = "5" onclick = "display('5')" /> </td>
+        <td> <input  type = "button" value = "6" onclick = "display('6')" /> </td>
+        <td> <input  type = "button" value = "-" onclick = "display('-')" /> </td>
+        </tr>
+        <tr>
+        <td> <input  type = "button" value = "7" onclick = "display('7')" /> </td>
+        <td> <input  type = "button" value = "8" onclick = "display('8')" /> </td>
+        <td> <input  type = "button" value = "9" onclick = "display('9')" /> </td>
+        <td> <input  type = "button" value = "+" onclick = "display('+')" /> </td>
+        </tr>
+        <tr>
+        <td> <input  type = "button" value = "." onclick = "display('.')" /> </td>
+        <td> <input  type = "button" value = "0" onclick = "display('0')" /> </td>
+        <!-- calculate() function evaluate the mathematical expression -->
+        <td> <input  type = "button" value = "=" onclick = "calculate()" style = "background-color: #fb0066;" /> </td>
+        <td> <input  type = "button" value = "*" onclick = "display('*')" /> </td>
+        </tr>
+        </table>
+
+
+
+</head>
+<body>
