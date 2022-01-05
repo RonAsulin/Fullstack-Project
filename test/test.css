@@ -7,16 +7,16 @@ body
  }
 
  h3{
-    color: darkolivegreen;
+    color: rgb(0, 235, 252);
     border-style: solid;
     width: 100px;
     height: 50px;
-   background-color: khaki;
-    text-align:center;
+   background-color: rgb(136, 0, 247);
 }
 div{
     color: blue;
     font-style: italic; 
+    text-align: center;
 }
 button{
 
@@ -27,9 +27,10 @@ button{
         color: #fff;
         background: #111;
         cursor: pointer;
-        position: relative;
+        position:relative;
         z-index: 0;
         border-radius: 10px;
+        text-align: center;
     }
     
     button:before {
@@ -104,3 +105,13 @@ div.mymenu {
     opacity: 0.8;
     transition: 1s;
   }
+  h1{
+    text-align: center;
+    color: rgb(161, 32, 178);
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 5px 5px 5px blue;
+    letter-spacing:2px;
+    text-decoration:underline;
+    
+}
