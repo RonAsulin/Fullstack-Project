@@ -1,6 +1,6 @@
 body{
     background-image:url("pic/2.jpg");
-    background-size:100%;
+    background-size:cover;
     background-attachment: scroll;
     background-repeat:no-repeat;
     font-style: initial;
