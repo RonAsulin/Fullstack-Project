@@ -10,6 +10,6 @@ function clearScreen() {
     // This function evaluates the expression and return result
     function calculate() {
      var p = document.getElementById("result").value;
-     var q = eval(p);
+     var q = eval(p);//כפל
      document.getElementById("result").value = q;
     }
